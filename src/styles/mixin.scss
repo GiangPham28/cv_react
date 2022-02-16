@@ -1,0 +1,57 @@
+@mixin clear{
+	*zoom: 1;
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+		visibility: hidden;
+	}
+}
+@mixin sp{
+	@media screen and (max-width: 900px){
+		@content;
+	}
+}
+@mixin tab{
+	@media screen and (max-width: 900px) and (min-width: 601px){
+		@content;
+	}
+}
+
+@mixin pc{
+	@media screen and (min-width: 769px){
+		@content;
+	}
+}
+
+@mixin bor-top($width, $color){
+	border-top: $width solid $color;
+}
+//border-bottom
+@mixin bor-bottom($width, $color){
+	border-bottom: $width solid $color;
+}
+//border
+@mixin bor($width, $color){
+	border: $width solid $color;
+}
+//box-sizing
+//ex: @include bor-siz;
+@mixin box-siz{
+	box-sizing: border-box;
+}
+@mixin tranX($per){
+	transform: translateX($per);
+}
+
+@mixin tranY($per){
+	transform: translateY($per);
+}
+
+@mixin tranfo($perX, $perY){
+	transform: translate($perX,$perY);
+}
+
+@mixin ani($min,$type){
+	transition: $min $type;
+}

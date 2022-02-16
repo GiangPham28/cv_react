@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import "./styles/var.scss";
+@import "./styles/mixin.scss";
+@import "./styles/reset.scss";
+
+//layout
+@import './components/Layout/Layout.scss';
+
+// component
+@import './pages/home/components/IntroTop/IntroTop.scss';
+@import './pages/home/components/About/About.scss';
+@import './pages/home/components/Button/Button.scss';
+@import './pages/home/components/Title/Title.scss';
+@import './pages/home/components/Education/Education.scss';
+@import './pages/home/components/Block/block.scss';

@@ -1,0 +1,27 @@
+.about{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.about_content{
+    position: relative;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 0 !important;
+    margin: 8px 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    padding-bottom: 25px;
+    p{
+        font-size: 1.6rem;
+        color: #000;
+        line-height: 25px;
+        font-weight: 400;
+        font-style: italic;
+        padding: 25px 30px;
+        border-bottom: 1px solid #ededed;
+        margin-bottom: 20px;
+    }
+}
+.about_btn{
+    margin: 0 auto;
+    text-align: center;
+}
